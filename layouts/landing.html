@@ -39,7 +39,7 @@
   {{- range . }}<li><b>{{ .name }}</b><span>{{ .text }}</span></li>{{ end -}}
 </ul></div></section>
 {{- end }}
-<footer class="foot"><div class="wrap"><span>{{ .Title }} · © {{ now.Year }} Akbolat Sadvakassov · <a href="/pocket-armory/privacy/{{ $doc }}">{{ T "privacy" }}</a> · <a href="/pocket-armory/support/{{ $doc }}">{{ T "support" }}</a> · <a href="/pocket-armory/delete-data/{{ $doc }}">{{ T "delete_data" }}</a></span><a href="/">{{ T "made_by" }} →</a></div></footer>
+<footer class="foot"><div class="wrap"><span>{{ .Title }} · © {{ now.Year }} Akbolat Sadvakassov · <a href="/pocket-armory/privacy/{{ $doc }}">{{ T "privacy" }}</a> · {{ $terms := "/pocket-armory/terms/" }}{{ with site.GetPage "/pocket-armory/terms" }}{{ $terms = .RelPermalink }}{{ end }}<a href="{{ $terms }}">{{ T "terms" }}</a> · <a href="/pocket-armory/support/{{ $doc }}">{{ T "support" }}</a> · <a href="/pocket-armory/delete-data/{{ $doc }}">{{ T "delete_data" }}</a></span><a href="/">{{ T "made_by" }} →</a></div></footer>
 {{ partial "store-pick.html" . }}
 {{ partial "store-events.html" . }}
 {{ partial "hero-stage.html" . }}

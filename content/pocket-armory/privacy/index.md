@@ -7,7 +7,7 @@ description: What data Pocket Armory processes and why, and how to delete it.
 
 {{< lang en >}}
 
-Effective date: 11 October 2026
+Effective date: 22 November 2026
 
 This policy explains what data the mobile game Pocket Armory: Loot&Shoot (Android and iOS) processes and why. The developer and data controller is Akbolat Sadvakassov (Lootonomics), Kazakhstan. Contact: <whitesteel400@gmail.com>.
 
@@ -20,7 +20,7 @@ Within 30 days we delete what is linked to that ID: gameplay events in Amplitude
 
 ## 1. No accounts
 
-The game has no accounts and no sign-in. The game never asks for your name, email address or phone number. Your game progress is stored only on your device, in a local database. Uninstalling the game deletes it. There is no cloud save.
+The game has no accounts and no sign-in. The game never asks for your name, email address or phone number. Your game progress is stored on your device, in a local database. We have no server that stores it and no cloud save of our own. Uninstalling the game deletes it from the device. However, on Android the system backup is on, so your progress may be saved in Android’s automatic backup to your Google account and restored when you move to a new phone. On iOS the game’s files are not excluded from the device backup, so they may be included in your iCloud or computer backup. Backups are handled by Google or Apple under their own policies; we do not receive them.
 
 ## 2. Per-install player ID
 
@@ -28,7 +28,7 @@ On first launch the game creates a random player ID for this installation. It li
 
 ## 3. Services we use
 
-**Google AdMob (Google LLC).** The game shows rewarded video ads that you choose to watch. AdMob may collect the advertising ID (the Android advertising ID; on iOS, the IDFA only if you allow tracking in the App Tracking Transparency prompt), your IP address and approximate location, device and app information, and your interactions with ads. This is used to show and measure ads and to prevent fraud. In the EEA, the UK and Switzerland the game asks for your consent through Google&#39;s consent form (User Messaging Platform) before showing personalized ads. See [how Google uses data from partner sites and apps](https://policies.google.com/technologies/partner-sites) and the [Google Privacy Policy](https://policies.google.com/privacy).
+**Google AdMob (Google LLC).** The game shows two kinds of ads: rewarded video ads that you choose to watch, and interstitial ads that appear between screens (for example, after you leave a chest opening) from player level 5, not more often than once every 3 minutes. The same ad SDK, Google AdMob, collects data for both kinds. AdMob may collect the advertising ID (the Android advertising ID; on iOS, the IDFA only if you allow tracking in the App Tracking Transparency prompt), your IP address and approximate location, device and app information, and your interactions with ads. This is used to show and measure ads and to prevent fraud. In the EEA, the UK and Switzerland the game asks for your consent through Google&#39;s consent form (User Messaging Platform) before showing personalized ads. See [how Google uses data from partner sites and apps](https://policies.google.com/technologies/partner-sites) and the [Google Privacy Policy](https://policies.google.com/privacy).
 
 **Google Firebase Crashlytics.** When the game crashes, we receive a crash report containing the device model, OS version, app version and the per-install ID. Purpose: to find and fix crashes. See the [Firebase privacy information](https://firebase.google.com/support/privacy).
 
@@ -85,7 +85,7 @@ Akbolat Sadvakassov (Lootonomics), Kazakhstan. Email: <whitesteel400@gmail.com>.
 
 # Pocket Armory: Loot&Shoot — Политика конфиденциальности
 
-Дата вступления в силу: 11 октября 2026 г.
+Дата вступления в силу: 22 ноября 2026 г.
 
 Эта политика объясняет, какие данные обрабатывает мобильная игра Pocket Armory: Loot&Shoot (Android и iOS) и зачем. Разработчик и оператор данных — Akbolat Sadvakassov (Lootonomics), Казахстан. Контакт: <whitesteel400@gmail.com>.
 
@@ -98,7 +98,7 @@ Akbolat Sadvakassov (Lootonomics), Kazakhstan. Email: <whitesteel400@gmail.com>.
 
 ## 1. Аккаунтов нет
 
-В игре нет аккаунтов и входа. Игра никогда не запрашивает ваше имя, адрес электронной почты или номер телефона. Игровой прогресс хранится только на вашем устройстве, в локальной базе данных. При удалении игры он удаляется. Облачного сохранения нет.
+В игре нет аккаунтов и входа. Игра никогда не запрашивает ваше имя, адрес электронной почты или номер телефона. Игровой прогресс хранится на вашем устройстве, в локальной базе данных. Своего сервера с прогрессом и своего облачного сохранения у нас нет. При удалении игры он удаляется с устройства. Однако на Android включена системная резервная копия, поэтому прогресс может попасть в автоматическую резервную копию Android в вашем аккаунте Google и вернуться при переносе на новый телефон. На iOS файлы игры не исключены из резервной копии устройства, поэтому они могут попасть в вашу копию в iCloud или на компьютере. Резервными копиями занимаются Google или Apple по своим правилам; мы их не получаем.
 
 ## 2. Случайный ID игрока
 
@@ -106,7 +106,7 @@ Akbolat Sadvakassov (Lootonomics), Kazakhstan. Email: <whitesteel400@gmail.com>.
 
 ## 3. Сервисы, которые мы используем
 
-**Google AdMob (Google LLC).** Игра показывает рекламные видео с наградой, которые вы смотрите по своему выбору. AdMob может собирать рекламный идентификатор (на Android — рекламный ID Android; на iOS — IDFA, только если вы разрешили отслеживание в запросе App Tracking Transparency), IP-адрес и примерное местоположение, сведения об устройстве и приложении, а также ваши действия с рекламой. Это нужно, чтобы показывать рекламу, измерять её результаты и предотвращать мошенничество. В ЕЭЗ, Великобритании и Швейцарии игра перед показом персонализированной рекламы запрашивает ваше согласие через форму согласия Google (User Messaging Platform). См. [как Google использует данные сайтов и приложений партнёров](https://policies.google.com/technologies/partner-sites) и [Политику конфиденциальности Google](https://policies.google.com/privacy).
+**Google AdMob (Google LLC).** Игра показывает рекламу двух видов: рекламные видео с наградой, которые вы смотрите по своему выбору, и межстраничную рекламу, которая появляется между экранами (например, после выхода из открытия сундука), начиная с 5-го уровня игрока и не чаще раза в 3 минуты. Данные для обоих видов собирает один и тот же рекламный SDK — Google AdMob. AdMob может собирать рекламный идентификатор (на Android — рекламный ID Android; на iOS — IDFA, только если вы разрешили отслеживание в запросе App Tracking Transparency), IP-адрес и примерное местоположение, сведения об устройстве и приложении, а также ваши действия с рекламой. Это нужно, чтобы показывать рекламу, измерять её результаты и предотвращать мошенничество. В ЕЭЗ, Великобритании и Швейцарии игра перед показом персонализированной рекламы запрашивает ваше согласие через форму согласия Google (User Messaging Platform). См. [как Google использует данные сайтов и приложений партнёров](https://policies.google.com/technologies/partner-sites) и [Политику конфиденциальности Google](https://policies.google.com/privacy).
 
 **Google Firebase Crashlytics.** Когда игра вылетает, мы получаем отчёт о сбое с моделью устройства, версией ОС, версией приложения и случайным ID установки. Цель — находить и исправлять сбои. См. [сведения о конфиденциальности Firebase](https://firebase.google.com/support/privacy).
 

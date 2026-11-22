@@ -21,7 +21,7 @@ No. There are no accounts or sign-in.
 
 ### Where is my progress saved?
 
-Only on your device. There is no cloud save: uninstalling the game or moving to a new phone starts over.
+On your device. We have no server that stores it. On Android it may be included in Android’s automatic backup to your Google account, and on iOS in your device backup, so it can come back on a new phone. Without a restored backup, uninstalling the game or moving to a new phone starts over.
 
 ### Can I buy anything?
 
@@ -35,7 +35,7 @@ Yes: optional rewarded ads, and occasionally an ad after opening a chest.
 
 In the game, open Profile and tap your player ID to copy it, then email it to [whitesteel400@gmail.com](mailto:whitesteel400@gmail.com?subject=Delete%20my%20data) with the subject &quot;Delete my data&quot;. We delete what is linked to that ID within 30 days. Uninstalling the game erases everything stored on the device.
 
-[Privacy Policy](/pocket-armory/privacy/)
+[Privacy Policy](/pocket-armory/privacy/) · [Terms of Service](/pocket-armory/terms/)
 
 {{< /lang >}}
 
@@ -57,7 +57,7 @@ In the game, open Profile and tap your player ID to copy it, then email it to [w
 
 ### Где хранится мой прогресс?
 
-Только на вашем устройстве. Облачного сохранения нет: если удалить игру или перейти на новый телефон, прогресс начнётся заново.
+На вашем устройстве. Своего сервера с прогрессом у нас нет. На Android он может попасть в автоматическую резервную копию Android в вашем аккаунте Google, а на iOS — в резервную копию устройства, поэтому может вернуться на новом телефоне. Без восстановленной копии удаление игры или переход на новый телефон начинают игру заново.
 
 ### Можно ли что-то купить?
 
@@ -71,6 +71,6 @@ In the game, open Profile and tap your player ID to copy it, then email it to [w
 
 В игре откройте «Профиль» и нажмите на свой ID игрока, чтобы скопировать его. Отправьте его на [whitesteel400@gmail.com](mailto:whitesteel400@gmail.com?subject=%D0%A3%D0%B4%D0%B0%D0%BB%D0%B8%D1%82%D1%8C%20%D0%BC%D0%BE%D0%B8%20%D0%B4%D0%B0%D0%BD%D0%BD%D1%8B%D0%B5) с темой «Удалить мои данные». Мы удалим всё, что связано с этим ID, в течение 30 дней. При удалении игры всё, что хранится на устройстве, стирается.
 
-[Политика конфиденциальности](/pocket-armory/privacy/)
+[Политика конфиденциальности](/pocket-armory/privacy/) · [Условия использования](/ru/pocket-armory/terms/)
 
 {{< /lang >}}
