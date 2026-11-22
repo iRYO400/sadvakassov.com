@@ -15,8 +15,8 @@ play_url: https://play.google.com/store/apps/details?id=com.lootonomics.dropfire
 app_store_url: https://apps.apple.com/app/id6817060844
 
 hero_screens:
-  - {img: images/pa-screen-2.webp, alt: Un coffre qui s’ouvre sur une scène 3D}
-  - {img: images/pa-screen-3.webp, alt: "Un fusil qui tire, avec des chiffres de coup critique"}
+  - {img: images/pa-screen-2-en.webp, alt: "Un pistolet-mitrailleur doré légendaire après l’ouverture d’un coffre"}
+  - {img: images/pa-screen-3-en.webp, alt: "Une arme peinte en Plasma, avec le mur de 20 peintures en dessous"}
 
 # The chest strip and the game's loop in three steps (layouts/_partials/loot.html).
 loot:

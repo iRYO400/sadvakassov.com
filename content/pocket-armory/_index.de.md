@@ -15,8 +15,8 @@ play_url: https://play.google.com/store/apps/details?id=com.lootonomics.dropfire
 app_store_url: https://apps.apple.com/app/id6817060844
 
 hero_screens:
-  - {img: images/pa-screen-2.webp, alt: Eine Truhe öffnet sich auf einer 3D-Bühne}
-  - {img: images/pa-screen-3.webp, alt: "Ein Gewehr feuert, mit Zahlen für kritische Treffer"}
+  - {img: images/pa-screen-2-en.webp, alt: "Eine goldene legendäre MP nach dem Öffnen einer Truhe"}
+  - {img: images/pa-screen-3-en.webp, alt: "Eine Waffe in der Farbe Plasma, darunter die Wand mit 20 Farben"}
 
 # The chest strip and the game's loop in three steps (layouts/_partials/loot.html).
 loot:

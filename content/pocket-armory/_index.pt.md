@@ -15,8 +15,8 @@ play_url: https://play.google.com/store/apps/details?id=com.lootonomics.dropfire
 app_store_url: https://apps.apple.com/app/id6817060844
 
 hero_screens:
-  - {img: images/pa-screen-2.webp, alt: Um baú abrindo em um palco 3D}
-  - {img: images/pa-screen-3.webp, alt: "Um fuzil atirando, com números de acerto crítico"}
+  - {img: images/pa-screen-2-en.webp, alt: "Uma submetralhadora dourada lendária após abrir um baú"}
+  - {img: images/pa-screen-3-en.webp, alt: "Uma arma na tinta Plasma, com o mural de 20 tintas abaixo"}
 
 # The chest strip and the game's loop in three steps (layouts/_partials/loot.html).
 loot:
