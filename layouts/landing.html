@@ -25,8 +25,9 @@
     <img class="qr" src="{{ .RelPermalink }}" alt="" width="{{ div .Width 2 }}" height="{{ div .Height 2 }}">
     {{- end }}</div>
   </div>
-  <div class="visual"><div class="duo">
-    {{- range .Params.hero_screens }}{{ $alt := .alt }}{{ with resources.Get .img }}<div class="phone"><img src="{{ .RelPermalink }}" alt="{{ $alt }}" width="{{ .Width }}" height="{{ .Height }}"></div>{{ end }}{{ end -}}
+  <div class="visual"><div class="duo{{ if eq (len .Params.hero_screens) 3 }} duo--three{{ end }}">
+    {{- /* Hugo makes each phone picture in several widths with Lanczos, so the browser picks one close to the size on screen instead of shrinking a big one itself, which turns thin lines into steps. */ -}}
+    {{- range .Params.hero_screens }}{{ $alt := .alt }}{{ with resources.Get .img }}{{ $src := . }}{{ $set := slice }}{{ range slice 280 420 560 720 900 1100 }}{{ $r := $src.Resize (printf "%dx webp q100 Lanczos" .) }}{{ $set = $set | append (printf "%s %dw" $r.RelPermalink .) }}{{ end }}{{ $def := $src.Resize "560x webp q100 Lanczos" }}<div class="phone"><img src="{{ $def.RelPermalink }}" srcset="{{ delimit $set ", " }}" sizes="(max-width: 860px) 44vw, 260px" alt="{{ $alt }}" width="{{ $def.Width }}" height="{{ $def.Height }}"></div>{{ end }}{{ end -}}
   </div></div>
 </div></header>
 {{ with .Params.loot }}{{ partial "loot.html" $ }}{{ end }}

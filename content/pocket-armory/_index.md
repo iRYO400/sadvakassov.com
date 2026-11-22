@@ -15,8 +15,9 @@ play_url: https://play.google.com/store/apps/details?id=com.lootonomics.dropfire
 app_store_url: https://apps.apple.com/app/id6817060844
 
 hero_screens:
-  - {img: images/pa-screen-2-en.webp, alt: "A legendary golden SMG shown after a chest opening"}
-  - {img: images/pa-screen-3-en.webp, alt: "A gun in Plasma paint, with the wall of 20 paints below it"}
+  - {img: images/pa-hero-gold.webp, alt: "The gold rifle just pulled from a chest, with its stats below"}
+  - {img: images/pa-hero-chest.webp, alt: "The chest strip just before it stops, with a 3D chest below"}
+  - {img: images/pa-hero-fire.webp, alt: "A machine gun firing, with muzzle flash and damage numbers"}
 
 # The chest strip and the game's loop in three steps (layouts/_partials/loot.html).
 loot:

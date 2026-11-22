@@ -15,8 +15,9 @@ play_url: https://play.google.com/store/apps/details?id=com.lootonomics.dropfire
 app_store_url: https://apps.apple.com/app/id6817060844
 
 hero_screens:
-  - {img: images/pa-screen-2-en.webp, alt: "Sandık açıldıktan sonra altın rengi efsanevi bir hafif makineli"}
-  - {img: images/pa-screen-3-en.webp, alt: "Plazma boyalı bir silah ve altında 20 boyalık duvar"}
+  - {img: images/pa-hero-gold.webp, alt: "Sandıktan yeni çıkan altın tüfek, altında özellikleri"}
+  - {img: images/pa-hero-chest.webp, alt: "Durmadan hemen önce sandık şeridi, altında 3B bir sandık"}
+  - {img: images/pa-hero-fire.webp, alt: "Ateş eden bir makineli tüfek, namlu alevi ve hasar rakamlarıyla"}
 
 # The chest strip and the game's loop in three steps (layouts/_partials/loot.html).
 loot:

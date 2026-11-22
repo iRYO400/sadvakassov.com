@@ -50,6 +50,11 @@ a:focus-visible { outline: 2px solid var(--l-accent); outline-offset: 4px; borde
 .duo .phone:first-child { left: 2%; top: 4%; rotate: -5deg; z-index: 2; }
 .duo .phone:last-child { right: 2%; top: 0; rotate: 6deg; translate: 0 calc(var(--p) * 40px); }
 @media (max-width: 860px) { .duo { width: min(92%, 460px); } }
+/* Three phones: the first stands in front in the middle, the other two lean out behind it on either side */
+.duo--three { aspect-ratio: 1 / 1.08; }
+.duo--three .phone:nth-child(1) { left: 26%; top: 2%; width: 48%; rotate: 0deg; z-index: 3; translate: none; }
+.duo--three .phone:nth-child(2) { left: 0; right: auto; top: 9%; width: 42%; rotate: -8deg; z-index: 1; translate: 0 calc(var(--p) * 40px); }
+.duo--three .phone:nth-child(3) { left: auto; right: 0; top: 9%; width: 42%; rotate: 8deg; z-index: 1; translate: 0 calc(var(--p) * 40px); }
 
 
 /* sections */

@@ -7,19 +7,6 @@
    Icon and title sit on the left under dark glass, so the picture keeps its subject in the right third.
    The plate picture is a size container 2.2 plates tall: 1cqh is about 2.2% of the plate height. */
 
-/* Pocket Armory: the portrait picture (the gold gun on its warm gradient) stands on the right; its sky and floor carry on to the left */
-.plate .art--pocket-armory { background: linear-gradient(180deg, #2c3d5a 0%, #5e657d 18%, #9a858e 30%, #cfb2ab 50%, #c29e90 66%, #c29e90 100%); }
-.plate .art--pocket-armory::before {
-  content: ""; position: absolute; left: -40%; right: -40%; top: 62%; height: 50%;
-  background-image: linear-gradient(rgb(255 255 255 / .3) 1px, transparent 1px), linear-gradient(90deg, rgb(255 255 255 / .3) 1px, transparent 1px);
-  background-size: 6cqh 6cqh; transform: perspective(36cqh) rotateX(62deg); transform-origin: 50% 0;
-}
-.plate .art--pocket-armory img {
-  position: absolute; top: 18%; right: 3%; width: auto; height: 64%;
-  -webkit-mask-image: linear-gradient(90deg, transparent, #000 22%, #000 80%, transparent);
-  mask-image: linear-gradient(90deg, transparent, #000 22%, #000 80%, transparent);
-}
-
-@media (max-width: 639px) {
-  .plate .art--pocket-armory img { top: 21%; height: 58%; right: -6%; }
-}
+/* Pocket Armory: the firing machine gun screenshot, its sky and floor carried on to the left. The gun is 80% of a
+   plate tall in the middle of the picture and sits on the right past the blurred glass under the name. */
+.plate .art--pocket-armory img { object-fit: cover; object-position: right center; }

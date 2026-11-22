@@ -15,8 +15,9 @@ play_url: https://play.google.com/store/apps/details?id=com.lootonomics.dropfire
 app_store_url: https://apps.apple.com/app/id6817060844
 
 hero_screens:
-  - {img: images/pa-screen-2-en.webp, alt: "Un subfusil dorado legendario tras abrir un cofre"}
-  - {img: images/pa-screen-3-en.webp, alt: "Un arma pintada en Plasma, con el muro de 20 pinturas debajo"}
+  - {img: images/pa-hero-gold.webp, alt: "El fusil dorado recién salido del cofre, con sus estadísticas debajo"}
+  - {img: images/pa-hero-chest.webp, alt: "La cinta de cofres justo antes de detenerse, con un cofre 3D debajo"}
+  - {img: images/pa-hero-fire.webp, alt: "Una ametralladora disparando, con fogonazo y cifras de daño"}
 
 # The chest strip and the game's loop in three steps (layouts/_partials/loot.html).
 loot:

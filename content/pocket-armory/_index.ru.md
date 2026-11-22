@@ -15,8 +15,9 @@ play_url: https://play.google.com/store/apps/details?id=com.lootonomics.dropfire
 app_store_url: https://apps.apple.com/app/id6817060844
 
 hero_screens:
-  - {img: images/pa-screen-2.webp, alt: Сундук открывается на 3D-сцене}
-  - {img: images/pa-screen-3.webp, alt: "Автомат стреляет, над ним цифры урона"}
+  - {img: images/pa-hero-gold.webp, alt: "Золотой автомат, только что выпавший из сундука, под ним характеристики"}
+  - {img: images/pa-hero-chest.webp, alt: "Лента сундуков перед остановкой, под ней 3D-сундук"}
+  - {img: images/pa-hero-fire.webp, alt: "Пулемёт стреляет: вспышка и цифры урона"}
 
 loot:
   title: "Открывай, коллекционируй, продавай"
